@@ -440,7 +440,7 @@ proc GetAngleExtremes {} {
 
                 # get connector dimension
                 set dim [$con getDimensions]
-                puts "[$con getName] dimesion: $dim " 
+                puts "[$con getName] dimension: $dim " 
                 
                 # check for two point connector
                 if {$dim <3} {
